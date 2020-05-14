@@ -1,0 +1,243 @@
+BODY { font-family: Arial, helvetica, verdana, sans-serif; font-size: 100%; }
+#SiteWrapper { display: block;  padding: 10px 0; margin: 0 auto; border-top: 4px solid #000; width: 100%; }
+
+/* Navigation & Header Treatment */
+#SectionHeader { margin: 75px 0 5px 0; }
+#RightSectionHeader { margin: 77px 0 5px 0; width: 227px; }
+
+#Logo { padding: 10px 0 0px 0; border: none; width: 100%; float: left; position: absolute;  }
+#Logo A { border: none; }
+
+#Navigation { display: none;  }
+#Navigation A { }
+
+A.Button {font-size: 11px;  padding: 4px 12px 3px 12px; background-color: #000; color: #FFF; text-transform: uppercase; margin: 0; letter-spacing: .1em; border-bottom: none; display: none; }
+A.Button:hover { color: #EB008B; border-bottom: none; }
+
+
+
+
+
+#MainNavigation, #NavDropDown, #Subnavigation { display: none; }
+
+
+#Content H1,
+#Content H2,
+#Content H3,
+#Content H4,
+#Content H5 { font-family: "arial narrow", Arial;}
+
+#Content H4 { font-size: 90%; }
+
+/* Footer Treatment */
+#Footer, #Footer A { color: #666; }
+#Footer A:hover { border-bottom: 1px dotted #EB008B;  color: #EB008B; }
+#Footer { position: relative; top: 50px; padding: 5px 0 0 0; margin-top: 10px; width: 900px; border-top: 1px solid #000;  display: block; clear: both; }
+#Footer UL { list-style: none; font-size: 70%;}
+#Footer LI.Txt { border-right: 1px solid #666; padding-right: 8px; margin-right: 8px; }
+#Footer LI { padding-right: 20px; text-transform: uppercase; margin: 0; display: inline; list-style-type: none;  }
+
+/* Links Treatment */
+A { letter-spacing: .08em;  text-decoration: none; text-transform: uppercase; color: #000; padding-bottom: 1px; }
+P A, DD A { border-bottom: 1px dotted #000; }
+A:hover { border-bottom-color: #EB008B; color: #EB008B; }
+IMG A, A IMG { border: none; }
+P { font-size: 80%;  margin-bottom: 15px; color: #555; }
+P A { font-size: 80%; }
+
+/* Utilities */
+.Left { float: left; }
+.Right { float: right; }
+IMG.Left { margin: 0 10px 10px 0; }
+.PinkText { color: #EB008B; }
+H1.PinkText { font-family: 'Arial Black', Arial; font-size: 185%; font-weight: bold; }
+
+/* Columns Treatment */
+#Columns { margin: 60px 0 0 0; padding-top: 60px; width: 100%; display: block; clear: both; }
+
+#Columns #Column1 { width: 100%; padding-top: 10px; float: left; }
+#Columns #Column1 #Content { width: 679px; float: right; margin: 10px 0 20px 0; }
+#Columns #Column1 H2 { padding: 10px 0 5px 0; } 
+#Columns #Column1 #Content UL { font-size: 80%; padding-left: 20px; list-style-type: square; color: #999; }
+#Columns #Column2 { padding-top: 10px; width: 289px; float: right; }
+#Columns #Column2 UL { padding-top: 10px; margin-top: 10px; list-style: none; }
+#Columns #Column2 UL.First { border-top: 2px solid #CACACA; }
+#Columns #Column2 A { margin-bottom: 20px; }
+#Columns #Column2 P { color: #EB008B; }
+#Columns #Column2.Content { padding: 25px 0 20px 35px; width: 300px; }
+
+#TwoColumns .Item { width: 290; margin-right: 15px; float: left; }
+#TwoColumns .Item.Last { margin-right: 0; }
+
+#ThreeColumns { padding: 10px 0 0 0; }
+#ThreeColumns DL,
+#ThreeColumns UL { color: #333333;  }
+#ThreeColumns .Item { width: 290; padding-right: 15px; float: left; }
+#ThreeColumns .Item.Last { padding-right: 0; }
+#ThreeColumns H2 { display: block; }
+#ThreeColumns .Content { display: block; margin-top: 0px; padding: 10px 0; }
+
+
+#Column1 UL { font-size: 80%; color: #333; margin-bottom: 10px; }
+#Column1 LI { padding: 0; margin: 0 0px 5px 20px; }
+#Columns DL, #Columns UL { font-size: 85%; }
+#Column1 DT { padding-top: 5px; } 
+#Column1 DD { margin-bottom: 10px; } 
+
+/* Home Treatment */
+#Home.Index #Columns { margin: 50px 0 0 0; padding: 50px 0 0 0; }
+#Home.Index #Column2 DD { margin: 10px 0 15px 0; color: #666; font-size: 105%; }
+#Home.Index #Column2 DD A { font-size: 85%; }
+#Home.Index #Column2 P { color: #333; }
+#Home.Index #Column1 { width: 596px; }
+#Home #Slideshow { width: 596px; height: 386px; overflow: hidden; background-color: #000; }
+
+#Gallery #Column1 H3 {font-size: 140%;}
+#Gallery #Column1 .Content { padding-top: 75px; display: block; clear: both; }
+#Gallery #Column1 { width: 625px; }
+#Gallery #Column1 .Item.Right { float: right; margin-right: 15px; }
+#Gallery #Column1 .Item P { margin: 0; } 
+#Gallery #Column1 .Item { float: left; width: 300px; margin: 10px 10px 10px 0; }
+#Gallery.Index #Column1 #s1 { padding: 0; }
+#Gallery.Index #Column1 .Item A { margin: 0; padding: 0; }
+#Gallery.Index #Column1 .SmallSlideshow { margin: 11px 0 8px 0; padding: 0; width: 292px; height: 186px; overflow:hidden;}
+#Gallery.Listing #Column1 .SmallSlideshow { margin: 0px 0 8px 0; padding: 0; width: 292px; height: 186px; overflow:hidden;}
+#Gallery.Detail #Column1 #LargeSlideshow { position: absolute: top: 0; width: 596px; height: 386px; overflow: hidden; }
+
+#nav { position: absolute; top: 385px;  width: 620px; margin: 15px 0 0 0;  }
+#nav li { width: 25px; float: left; list-style: none; margin: 3px 2px 0px 2px;  }
+#nav a { padding: 2px; width: 25px; display: block; margin: 0; }
+#nav a.activeSlide { background-color: #EB008B;  }
+#nav a:focus { outline: none; }
+#nav img { border: none; display: block; margin: 0; padding: 0;}
+
+/* About Us Treatment */
+#AboutUs.Index #ThreeColumns LI { list-style: none; }
+#AboutUs.Index #ThreeColumns DD { margin-bottom: 15px; }
+#AboutUs #Columns DL { font-size: 80%; }
+#AboutUs #Columns DL A { font-size: 80%; }
+#AboutUs #Columns #Column1 DD { padding-bottom: 0px; } 
+#AboutUs #Columns #Column2 DT { padding-top: 3px; }
+#AboutUs #Columns #Column1 DT { padding-top: 8px; }
+#AboutUs #Columns #Column1 DL { margin-bottom: 45px; }
+#AboutUs #Column1 LI { margin-left: 20px; font-size: 80%; color: #777; }
+#AboutUs #Column1 H4 { margin-top: 20px; font-size: 25px;}
+#AboutUs .Item IMG { margin-bottom: 12px; }
+#AboutUs H2 { padding-top: 0; margin: 0; }
+#AboutUs #Columns { padding-top: 0; }
+#AboutUs #Column1 { padding-top: 0; margin-top: 0; }
+#AboutUs #Column2 { padding-top: 50px; margin-top: 0; }
+#AboutUs #Column2 P { margin-left: 30px; }
+#AboutUs #Column2.BoardMembers { padding-top: 10px; }
+
+/* Programs Treatment */
+#ProgramEvents.Registration .InputButton { float: left; width: 25px; padding-top: 2px; }
+#ProgramEvents.Registration .Info { margin-top: 50px; float: left; width: 600px; vertical-align: top; }
+#ProgramEvents.Registration INPUT.Button { cursor: pointer; font-size: 11px;  padding: 3px 12px 4px 12px; background-color: #000; color: #FFF; text-transform: uppercase; margin: 0 10px 0 0; letter-spacing: .1em; border: 1px solid #000; }
+#ProgramEvents.Registration INPUT.ButtonMouse { color: #EB008B; }
+#ProgramEvents.Registration TD { border: 1px solid #CFCFCF; padding: 5px;   }
+#ProgramEvents.Registration H1 { font-size: 180%; }
+#ProgramEvents.Registration H3 { border-bottom: 1px solid #000; padding-top: 20px; font-size: 120%; font-weight: bold;  }
+#ProgramEvents.Registration H4 { font-size: 95%; font-weight: bold; }
+#ProgramEvents.Registration P { font-size: 85%; }
+#ProgramEvents.Registration HR { height: 1px; }
+#ProgramEvents.Registration .RegistrationChoices TABLE { font-size: 75%; padding: 0; margin: 0; }
+#ProgramEvents.Registration .RegistrationChoices TABLE TD { padding: 2px 0; margin: 0; }
+#ProgramEvents.Registration P.PinkText { font-family: 'Arial Black', Arial; font-size: 11px; font-weight: bold; padding: 0; margin: 10px 0 0 0; }
+#ProgramEvents.Registration TABLE.PinkText { padding: 5px 0 2px 0; border: 0; text-align: left; font-family: 'Arial Black', Arial;font-size: 75%; font-weight: bold; color: #EB008B; }
+#ProgramEvents.Registration TABLE.BlackText { padding: 5px 0 2px 0; border: 0; text-align: left; font-family: 'Arial Black', Arial; font-size: 75%;  }
+#ProgramEvents.Registration TABLE .Title { font-weight: bold; color: #000; }
+#ProgramEvents.Registration TABLE .Data INPUT { border: 1px solid #666; padding: 2px; }
+#ProgramEvents.Registration TABLE .Data TEXTAREA { border: 1px solid #666; padding: 2px; }
+#ProgramEvents.Registration TABLE .Data TD { padding-bottom: 15px; }
+#ProgramEvents.Registration TD { border: 0; padding: 0; margin: 0; }
+#ProgramEvents.Registration #Page1 { padding-top: 15px;  }
+#ProgramEvents.Registration #Page1 .Item { padding: 10px 0 20px 0; display: block; clear: both;  }
+#ProgramEvents.Registration #Page1 DL { margin: 0; }
+#ProgramEvents.Registration DL { margin: 10px 0 5px 0; }
+#ProgramEvents.Registration #Page1 DT { font-weight: bold; text-transform: uppercase; }
+#ProgramEvents.Registration #Page2, #ProgramEvents.Registration #Page3 { margin-top: 20px; }
+#ProgramEvents .Item .Content { width: 285px; border: none; padding: 0; }
+#ProgramEvents #Content H3 { line-height: 1.25em; font-weight: bold; }
+#ProgramEvents #Content H4 { padding-bottom: 5px; text-transform: none; font-style: italic; }
+#ProgramEvents #Content .Item { padding-bottom: 20px; }
+#ProgramEvents .Photo { margin-top: 10px; }
+#ProgramEvents.Calendar TD .CellHeader { color: #CCC; background-color: #333; font-size: 80%; padding: 3px 5px; } 
+#ProgramEvents.Calendar TD .CellHeader A { color: #FFF; }
+#ProgramEvents.Calendar .calendarCell {  background-color: #ccc; }
+#ProgramEvents.Static #Column1 DL { color: #555; }
+#ProgramEvents.Static #Column1 DT { font-weight: bold;  }
+#ProgramEvents.Index #Column1 DL { font-size: 80%; color: #333; }
+#ProgramEvents.Index #Column1 DD A { font-size: 85%; }
+#ProgramEvents #Column2 .Item { padding: 50px 0 0 25px; }
+#ProgramEvents #Column2 .Item P { padding: 0 0 10px 0; }
+#ProgramEvents.Calendar .calendarCell .Entry { padding: 5px; font-size: 75%; } 
+#ProgramEvents.Calendar .calendarCell .Entry A { color: #333; }
+#ProgramEvents.Calendar .calendarCell .Entry A:hover { color: #000; }
+#ProgramEvents.Calendar .calendarBlank { background-color: #bebebe; color: #999; }
+#ProgramEvents.Calendar .calendarDayHeading { height: 20px; background-color: #000; color: #FFF; text-align: center; font-size: 80%; }
+#ProgramEvents.Calendar TD { width: 97px; height: 97px; vertical-align: top; border-right: 1px solid #FFF; border-bottom: 1px solid #FFF; }
+#ProgramEvents.Index TABLE { margin: 0 0 10px 0; }
+#ProgramEvents.Index TD { font-size: 75%; padding: 5px 0; color: #555; }
+
+#ProgramEvents #Column2 { margin: 11px 0 0 10px; width: 270px}
+#ProgramEvents #Column2 #SeriesListing DL { margin: 5px 0px 10px 0;  }
+#ProgramEvents #Column2 #SeriesListing DL DT { font-size: 95%; }
+#ProgramEvents #Column2 #SeriesListing DL DD A { font-size: 85%; }
+
+#Education.Index TABLE { margin: 0 0 10px 0; }
+#Education.Index TD { font-size: 75%; padding: 5px 0; color: #555; }
+
+#Membership #Column1 UL { list-style: none; font-size: 85%; color: #333; padding-right: 40px; }
+
+#VisitorInformation .Icon { padding: 0 7px 0 5px; margin-bottom: -8px; }
+#VisitorInformation #Column1 UL { list-style: none; font-size: 85%; }
+#VisitorInformation #Column1 UL LI { margin: 0 0 10px 5px; color: #333; }
+#VisitorInformation #Column1 UL LI SPAN { font-size: 14px; padding: 3px 7px; border: 1px solid #000; margin-right: 8px; font-weight: bold; color: #000; }
+
+/*#VisitorInformation .Item { width: 285px; float: left; margin: 0 10px 20px 0px; }
+
+#VisitorInformation .Item DD { margin-bottom: 15px; }
+*/
+#VisitorInformation #Column2 { padding: 50px 0px 0 20px;  width: 250px; }
+#VisitorInformation #Column2 P {  }
+
+#VisitorInformation .Item DL { margin-bottom: 15px; }
+#VisitorInformation .Item DL A { font-size: 79%; line-height: 1.5em; border-bottom: 1px dotted #000; }
+#VisitorInformation .Item DL A:HOVER { border-color: #EB008B; }
+
+#VisitorInformation .Item DD { font-size: 90%;  color: #333; margin-top: 3px; }
+
+#SupportUs #Column1 H3.Intro { clear: both; display: block; margin-top: 25px; padding: 20px 0 10px 0; font-size: 24px; color: #333; }
+#SupportUs #Column1 UL { color: #333; list-style: none; font-size: 85%;  }
+
+#ContactUs #Column1 DL { padding-bottom: 10px; font-size: 14px; color: #555; }
+#ContactUs INPUT  { width: 400px; }
+#ContactUs INPUT.Button { width: 100px; }
+#ContactUs TEXTAREA  { width: 400px; }
+#ContactUs #Column1 LI { font-size: 80%; margin-left: 20px; }
+#ContactUs .Choices INPUT { width: 35px; }
+
+#Press.Index .Intro { margin: 10px 0 0 0;}
+#Press #Column1 .Item P { line-height: 1.5em; padding: 0; margin: 0; }
+#Press #Column1 .Item { padding-bottom: 20px; }
+
+#FeaturedNews { padding-top: 10px; }
+#FeaturedNews H3.Intro { color: #999; font-size: 140%; line-height: 1em; }
+
+#ThreeColumns P { margin-bottom: 20px; font-size: 85%; }
+
+#Home #ThreeColumns { clear: both; display: block; padding: 40px 0 25px 0; }
+
+#GetInvolved #Column2 { width: 220px; padding-top: 65px; }
+#GetInvolved #Column1 H2.Intro {margin-top: 30px; }
+#GetInvolved #Column2 P { margin-bottom: 15px; }
+#GetInvolved #Column2 H2.Intro { padding: 0px 0 0 0; margin: 0px 0 0 0; }
+#GetInvolved #Column1 LI { font-size: 95%; margin: 10px 0px 0 20px; padding-left: 0px;  }
+
+#GetInvolved.Index #Column1 H2.Intro {margin: 0px; padding: 10px 0 0 0; }
+#GetInvolved.Index #Column1 { width: 610px; }
+#GetInvolved.Index #Column1 .Item.Right { float: right; }
+#GetInvolved.Index #Column1 .Item P { margin: 0 0 10px 0; } 
+#GetInvolved.Index #Column1 .Item .Button {  }
+#GetInvolved.Index #Column1 .Item { float: left; width: 300px; margin: 10px 0 15px 0; }
